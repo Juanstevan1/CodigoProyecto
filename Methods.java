@@ -14,7 +14,7 @@ public class Methods {
         boolean control = true;
         while(true){
              System.out.println("1. Registrarse");
-             System.out.println("2. Inicia seccion");
+             System.out.println("2. Inicia sesión");
              System.out.println("3. depositar reciclaje");
              System.out.println("4. Finzalizar programa");
              int option = scan.nextInt();
