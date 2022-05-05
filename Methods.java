@@ -335,10 +335,12 @@ public class Methods {
                 case 1:
                     System.out.println("");
                     System.out.println("Ingresa el titulo de tu publicacion");
-                    String tit = scan.next();
+                    String tit = scan.nextLine();
+                    scan.next(); 
                     System.out.println("");
                     System.out.println("Ingresa el cometido de tu publicacion");
                     String cometido = scan.next();
+                    scan.nextLine(); 
                     System.out.println("");
                     System.out.println("¿Publicar? 1. Sí - 2. No");
                     int respu = scan.nextInt();
